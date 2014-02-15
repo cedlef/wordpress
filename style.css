@@ -1,0 +1,45 @@
+/*
+Theme Name: mon-theme
+Theme URI: http://example.com/
+Description: Exemple thème enfant
+Author URI: http://example.com/
+Template: twentythirteen
+Version: 1.0.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+/* =Theme customization starts here*/
+#content{
+	background-image: url("img/content.jpg");
+	background-attachment: fixed;
+}
+
+#header{
+	background-image: url("img/content.jpg");
+	background-attachment: fixed;
+}
+}
+
+HEADER.entry-header 
+{
+	color:#0000FF;
+}
+
+.map{
+	color:#000000;
+	width:50%;
+	heigth: 2000;
+}
+
+.site-header{
+	background-color: #ADD8E6;
+}
+
+.leaflet-tile leaflet-tile-loaded {
+	color:#000000;
+	width:50%;
+	height: 2000;
+}
+
+
